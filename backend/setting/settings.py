@@ -186,5 +186,6 @@ CORS_ALLOWED_ORIGINS = _env_list(
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:3000/")  # Redirection post-achat
 
 # Clé PSP (à définir via variables d'environnement)
+
 SSL_STORE_ID = os.environ.get("SSL_STORE_ID", "")
 SSL_API_KEY = os.environ.get("SSL_API_KEY", "")
